@@ -19,12 +19,68 @@ body{
 
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
+nav a{
+   text-decoration: none;
+   color: #fff;
 }
 
-nav ul li{
-    display: flex;
-    justify-content: ;
+nav a:hover{
+    text-decoration: underline;
+    color: #00000080;
+    font-weight:700;
+}
+
+.search{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    outline: none;
+    padding-left: 25px;
+    color: #00000080;
+    background: #FFFFFF;
+}
+
+button{
+    width: 7%;
+    height: 30px;
+    cursor: pointer;
+    color: #00000080;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+}
+
+button:hover{
+    background: #00000080;
+    color:#fff;
+    font-weight:700;
+}
+
+.content{
+   background-image: url(../images/image.jpg);
+   background-size:contain;
+   height: 100vh;
+}
+
+.content h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 70px 70px 0;
+    }
+
+.content h2{
+    padding: 0 70px 0;
+    font-style: normal;
+    font-weight: 400;  
+    font-size: 25px;
+    line-height: 43px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.content .started{
+    width: 10%;
+    height: 50px;
+    margin: 10px 70px 0;
 }
